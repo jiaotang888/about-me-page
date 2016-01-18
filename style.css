@@ -1,0 +1,88 @@
+/* Typography Declarations */
+body {
+	font-size: 1em;
+    color: #222222;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    margin:0;
+}
+.introduction-section > p,
+.location-section > p,
+.content-footer > p {
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+h2 {
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #D1A000;
+}
+
+/* The Header */
+.masthead-heading,
+.content-footer,
+.masthead-intro {
+    text-align: center;
+}
+.masthead {
+    padding: 6em 0;
+    background-image: url('http://t.cn/R4Tg72R');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: solid 1em #FFCF33;
+}
+.masthead-intro {
+    margin-bottom: 0.1em;
+    color: #131BE5;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+}
+.masthead-heading {
+	/* Layout Declarations */
+	margin-top: -0.2em;
+	/* Typography Declarations */
+	color: #131BE5;
+	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 6em;
+	letter-spacing: -0.02em;
+	text-transform: uppercase;
+	text-shadow: 0px 3px 0px #FFCF33;
+}
+
+/* Sections */
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+ /* The footer */
+.social > li {
+    display: inline-block;
+}
+.content-footer > p {
+    color: white;
+}
+.content-footer {
+	margin-top: 3em;
+    padding-top: 1em;
+	padding-bottom: 1em;
+	border-bottom: solid 1em #FFCF33;
+	background-color: #716C5C;
+}
+a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFCF33;
+}
+a:hover {
+	color: #FFE799;
+}
+a:visited {
+	color: #D1A000;
+}
